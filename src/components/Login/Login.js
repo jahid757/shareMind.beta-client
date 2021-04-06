@@ -32,9 +32,9 @@ const Login = () => {
           });
     }
     return (
-        <div>
-            <h2>this is login</h2>
-            <button onClick={handelGoogleSignIn}>google</button>
+        <div className="container text-center d-flex flex-column">
+            <h2 className="text-white py-5">Login</h2>
+            <button style={{width:'250px',margin:'auto'}} className="btn btn-primary" onClick={handelGoogleSignIn}><i className="fab fa-google "></i> Continue With Google</button>
         </div>
     );
 };
