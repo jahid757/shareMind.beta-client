@@ -1,0 +1,24 @@
+img{
+    width: 100%;
+}
+img.admin{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+}
+img.logo{
+    width: 100px;
+}
+.menu-background{
+    background:#152933;
+    width: 100%;
+    padding: 10px 0;
+    position:fixed;
+    top:0;
+}
+span.name{
+    padding-left: 10px;
+}
+.margin-left{
+    margin-left: 10px;
+}
