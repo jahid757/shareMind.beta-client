@@ -18,9 +18,6 @@ const Post = ({post}) => {
                 <h4 className="text-white">{post.title}</h4>
                 <img className="my-2" src={post.imgUrl || 'https://i.ibb.co/Pzqm9fQ/We-are-really-sorry.png'} alt=""/>
                 <p className="text-white">{post.description}</p>
-                {
-                    console.log(post)
-                }
             </div>
         </div>
     );
